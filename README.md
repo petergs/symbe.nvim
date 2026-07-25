@@ -24,7 +24,10 @@ jump to a symbol, and highlight all instances of a symbol as you reverse enginee
 ```lua
 {
   "petergs/symbe.nvim",
-  dependencies = { "nvim-telescope/telescope.nvim" }
+  dependencies = { "nvim-telescope/telescope.nvim" },
+  config = function()
+    require("symbe").setup({})
+  end,
 }
 ```
 
