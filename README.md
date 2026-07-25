@@ -1,7 +1,11 @@
 # symbe
+> A simple rename symbol plugin for neovim
 
-A Neovim plugin geared towards interactive __deobfuscation workflows__: rename a symbol file-wide,
-jump to a symbol, and highlight all instances of a symbol as you reverse engineer.
+Geared towards interactive deobfuscation of scripts (python, javascript, applescript), 
+this plugin provides similar global symbol rename functionality to 
+`L` in [Ghidra](https://github.com/NationalSecurityAgency/ghidra/blob/817766af27129d6e88aa4d895ce55c9f1526faec/GhidraDocs/CheatSheet.html#L359), 
+`n` in [Binary Ninja](https://docs.binary.ninja/guide/types/basictypes.html#renaming-symbols-and-variables), 
+or `N` in [IDA](https://hex-rays.com/blog/igors-tip-of-the-week-42-renaming-and-retyping-in-the-decompiler).
 
 ## Features
 
